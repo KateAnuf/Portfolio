@@ -1,0 +1,71 @@
+/* Tablet */
+@media (max-width: 899px) {
+    .toggle-menu{
+        position: relative;
+        width: 40px;
+        height: 5px;
+        background-color: black;  
+        transition: background-color 0.2s ease-in ;
+        cursor: pointer;
+    }
+
+    .toggle-menu::before{
+        content: " ";
+        position: absolute;
+        top: -10px;
+        left: 0;
+    
+        width: 40px;
+        height: 5px;
+        background-color: black;
+        transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+        transition: background-color 0.2s ease-in ;
+        cursor: pointer;
+    }
+
+    .toggle-menu::after{
+        content: " ";
+        position: absolute;
+        top: 10px;
+        left: 0;
+    
+        width: 40px;
+        height: 5px;
+        background-color: black;
+        transition: transform 0.2s ease-in, top 0.2s linear 0.2s;
+        transition: background-color 0.2s ease-in ;
+        cursor: pointer;
+    }
+
+   .toggle-menu:hover{
+    opacity: 0.5;
+   }
+}
+
+/* Tablet */
+@media (max-width: 899px) {
+    .toggle-menu.toggle-menu--active{
+        z-index: 999;
+    }
+    
+    .toggle-menu.toggle-menu--active {
+        background-color: transparent;
+    
+        &::before{
+            transform: rotate(45deg);
+            top: 0;
+        
+            transition: top 0.2s linear,transform 0.2s ease-in 0.2s;
+        
+        }
+    
+        &::after{
+            transform: rotate(-45deg);
+            top: 0;
+        
+            transition: top 0.2s linear,transform 0.2s ease-in 0.2s;
+        
+        }
+    }
+    
+}

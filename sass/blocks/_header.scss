@@ -1,0 +1,259 @@
+
+.header{
+    padding-top: 49px;
+    padding-bottom: 90px;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        padding-top: 73px;
+        padding-bottom: 60px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        padding-top: 72px;
+        padding-bottom: 40px;
+        
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        padding-top: 33px;
+    }
+}
+
+.header__main{
+    overflow: hidden;
+}
+
+
+
+.header__row {
+    
+    display: flex;
+    justify-content: space-between;
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        flex-direction: column;
+    }
+
+   
+}
+
+.header__content { 
+    width: 542px;
+    padding-top: 19px;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        width: 420px;
+        padding-top: 8px;
+    }  
+
+   /* Tablet */
+   @media (max-width: 899px) {
+    width: 354px;
+    padding-top: 39px;
+    
+   }
+
+   /* Mobile */
+   @media (max-width: 767px) {
+    width: 220px;
+    padding-top: 0px;
+   }
+
+}
+
+.header__title {
+    width: 535px;
+
+    /* Tablet big */
+    @media (max-width: 1139px) {
+        width: 398px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        width: 288px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        width: 220px;
+        margin-bottom: 20px;
+    }
+    
+}
+.title {
+    color: $black-color;
+    font-size: 78px;
+    font-weight: 700;
+    line-height: 1; /* 78px */
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {       
+        font-size: 58px;     
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        font-size: 42px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        font-size: 32px;
+    }
+}
+.title.grad-border {
+    display: inline;
+    background-repeat: no-repeat;
+    background-position: center bottom 15px;
+    background-size: 100% 10px;
+    background-image:  linear-gradient(to right, #FBDC4D,#FBDC4D);
+
+    /* Tablet  big*/
+    @media (max-width: 1139px) {
+        background-position: center bottom 10px;
+        
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        background-position: center bottom 6px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        background-position: center bottom 4px;
+        background-size: 100% 7px;
+    }
+}
+
+.header__text{
+    margin-top: 30px;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        margin-top: 20px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        margin-top: 10px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        display: none;
+    }
+}
+
+.header__text p{
+    width: 540px;
+
+    color: $black-color;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.6; /* 35.2px */
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        width: 418px;      
+        font-size: 18px;       
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        width: 354px;
+        font-size: 16px;   
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        width: 290px;
+    }
+}
+
+.header__buttons {
+    margin-top: 30px;
+    
+    /* Tablet big */
+    @media (max-width: 1139px) {
+        margin-top: 20px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        display: none;
+    }
+}
+
+.header__photo {
+    box-shadow: 40px 40px rgba(255, 255, 255, 0.50);
+
+    /* Tablet */
+    @media (max-width: 1139px) {
+        box-shadow: none;
+    }
+   
+}
+
+.header__photo img{
+    width: 475px;
+    height: 410px;
+    object-fit: cover;   
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+        width: 376px;
+        height: 325px;
+    }
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        width: 290px;
+        height: 250px;
+    }
+
+}
+
+.header__banner{
+    text-align: center;
+    margin-top: -156px;
+    position: relative;
+    z-index: -9;
+
+    /* Tablet big */
+    @media (max-width: 1139px) {
+        margin-top: -90px;
+    }
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
+.header__text-mb{
+    display: none;
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        display: block;
+        margin-top: 10px;
+    }
+}
+
+.header__text-mb p{
+    width: 290px;
+    color: $black-color;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6; /* 35.2px */
+}

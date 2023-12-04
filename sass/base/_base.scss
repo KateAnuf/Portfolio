@@ -1,0 +1,172 @@
+html {
+    min-height: 100vh; /* sticky footer */
+	scroll-behavior: smooth;
+}
+
+body {
+	min-height: 100vh; /* sticky footer */
+	display: flex; /* sticky footer */
+	flex-direction: column; /* sticky footer */
+
+	font-family:  'Montserrat', sans-serif;
+    color: $black-color;
+
+    text-rendering: optimizeSpeed;
+    //text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body > * {
+	flex-shrink: 0; /* sticky footer */
+}
+
+.lock{
+    overflow: hidden;
+}
+
+.form-contact__success {
+    font-size: 22px;
+    font-weight: 700;
+    color: $black-color;
+}
+
+label.error{
+    position: relative;
+    font-size: 14px;
+    font-weight: 400;
+    color: red;
+}
+
+
+.none{
+    display: none!important;
+}
+
+.svg-in{
+    width: 32px;
+    height: 32px;
+    fill:black;
+    
+}
+
+.svg-git{
+    width: 42px;
+    height: 42px;
+   margin-right: 0;
+
+   /* Tablet big*/
+   @media (max-width: 1139px) {
+    width: 36px;
+    height: 36px;
+   }
+
+   
+}
+
+.svg-git:hover, .svg-git:active, .svg-git:focus{
+    opacity: 0.75;
+}
+
+
+
+.svg-fb, .svg-inst, .svg-vk, .svg-tg , .svg-wtsp{
+    width: 48px;
+    height: 48px;
+
+    /* Tablet */
+    @media (max-width: 899px) {
+        width: 38px;
+    height: 38px;
+    }
+}
+
+
+
+
+
+.section {
+	// position: relative;
+}
+
+/* Grid styles */
+
+#backtop.backtop-btn{
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    z-index: 109;
+    font-size: 50px;
+    color: $accent-color;
+    display: inline-block;
+
+    /* Mobile */
+    @media (max-width: 767px) {
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+.container {
+	max-width: 1140px;
+    width: 100%;
+	margin-left: auto;
+    margin-right: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+
+    &--fluid {
+        max-width: unset;
+    }
+
+    &--no-padding {
+        padding: 0;
+    }
+
+
+    /* Tablet Big */
+    @media (max-width: 1139px) {
+        
+         width: 900px;
+         
+    }
+    
+   /* Tablet */
+@media (max-width: 899px) {
+    
+    width: 768px;
+    
+}
+    /* Mobile */
+@media (max-width: 767px) {
+    
+    width: 320px;
+    
+}
+
+}
+
+/* Utility */
+
+.none {
+	display: none !important;
+}
+
+// .visually-hidden {
+//     opacity: 0;
+//     visibility: hidden;
+//     width: 0px;
+//     height: 0px;
+//     display: block;
+//     margin-left: -10000px;
+//     background: transparent;
+//     font-size: 0;
+// }
+
+/* Sticky Footer */
+
+.footer {
+	margin-top: auto; /* sticky footer */
+}

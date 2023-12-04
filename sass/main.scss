@@ -1,0 +1,19 @@
+// Base
+@import "./base/vars";
+@import "./base/reset";
+@import "./base/base";
+
+// Blocks
+@import "./blocks/header";
+@import "./blocks/logo";
+@import "./blocks/footer";
+
+
+//sections
+@import "./sections/nav";
+@import "./sections/buttons";
+@import "./sections/header__skils";
+@import "./sections/portfolio";
+@import "./sections/timeline";
+@import "./sections/portfolio-contacts";
+@import "./sections/toggle-menu";

@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- encoding -->
+    <meta charset="UTF-8" />
+    <!-- Mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Title and SEO -->
+    <title>Портфолио- Ануфриева Екатерина</title>
+    <meta name="description" content="Описание страницы" />
+    <meta name="keywords" content="ключевые слова, фразы" />
+
+    <!-- Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+
+    <!-- анимация -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./img/favicon/safari-pinned-tab.svg"
+      color="#1a60cf"
+    />
+    <link rel="shortcut icon" href="./img/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#00aba9" />
+    <meta
+      name="msapplication-config"
+      content="./img/favicon/browserconfig.xml"
+    />
+    <meta name="theme-color" content="#ffffff" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600;700&family=Noto+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav-top">
+      <div class="header-container">
+        <nav class="nav" id="nav">
+          <div class="nav-logo">HTML Верстальщик</div>
+
+          <div class="toggle-menu" id="menu-toggle"><span></span></div>
+
+          <div class="nav-menu" id="nav-menu">
+            <div class="nav-menu__content">
+              <ul class="nav-list">
+                <li class="nav-list-item"><a href="#skils">Навыки</a></li>
+                <li class="nav-list-item">
+                  <a href="#portfolio">Портфолио</a>
+                </li>
+                <li class="nav-list-item">
+                  <a href="#timeline">Как я работаю</a>
+                </li>
+                <li class="nav-list-item"><a href="#contacts">Контакты</a></li>
+              </ul>
+
+              <div class="nav-menu__contacts">
+                <div class="social-block">
+                  <a href="https://web.telegram.org/k/">
+                    <svg class="svg-tg">
+                      <use href="./img/svg/svgSprite.svg#svg-tg"></use>
+                    </svg>
+                  </a>
+
+                  <a href="https://vk.com/kt.anuf" target="_blank">
+                    <svg class="svg-vk">
+                      <use href="./img/svg/svgSprite.svg#svg-vk"></use>
+                    </svg>
+                  </a>
+
+                  <!-- <a href="#" target="_blank">
+                    <img
+                      src="./img/svg/facebook.svg"
+                      alt="facebook"
+                      class="img-fb"
+                    />
+                  </a> -->
+
+                  <!-- <a href="#" target="_blank">
+                    <img
+                      src="./img/svg/instagram.svg"
+                      alt="instagram"
+                      class="img-inst"
+                    />
+                  </a> -->
+
+                  <!-- <a href="#" target="_blank">
+                    <svg class="svg-wtsp">
+                      <use href="./img/svg/svgSprite.svg#svg-wtsp"></use>
+                    </svg>
+                  </a> -->
+
+                </div>
+                <a href="mailto:ekaterinaanufrieva52@gmail.com" class="link-id"
+                  >ekaterinaanufrieva52@gmail.com</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="nav__icon">
+            <a href="#">
+              <svg class="svg-in">
+                <use href="./img/svg/svgSprite.svg#svg-in"></use>
+              </svg>
+            </a>
+
+            <a href="https://github.com/KateAnuf/KateAnuf" target="_blank">
+              <svg class="svg-git">
+                <use href="./img/svg/svgSprite.svg#svg-git"></use>
+              </svg>
+            </a>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="header__main">
+        <div class="container">
+          <div class="header__row">
+            <div class="header__content">
+              <div
+                class="header__title"
+                data-aos="fade-right"
+                data-aos-duration="1000"
+              >
+                <h1 class="title grad-border">Екатерина Ануфриева</h1>
+              </div>
+
+              <div class="header__text">
+                <p>
+                  Верстальщик сайтов, веб-разработчик. Оперативная верстка.
+                  Работаю с соблюдением сроков и выполнением ТЗ.
+                </p>
+              </div>
+
+              <div class="header__buttons">
+                <a href="#skils" class="button">Познакомиться</a>
+                <a href="#contacts" class="button button--outline">Контакты</a>
+              </div>
+            </div>
+
+            <div
+              class="header__photo"
+              data-aos="fade-left"
+              data-aos-duration="1000"
+            >
+              <img src="./img/header-info.png" alt="Ноутбук" />
+
+              <div class="header__text-mb">
+                <p>
+                  Верстальщик сайтов, веб-разработчик. Оперативная верстка.
+                  Работаю с соблюдением сроков и выполнением ТЗ.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header__banner">
+        <img src="./img/header-img.jpg" alt="banner" />
+      </div>
+
+      <div class="header__skils" id="skils">
+        <div class="container">
+          <div class="skils-wrapper">
+            <div class="header__skils-col">
+              <p class="h3">Что я умею:</p>
+
+              <ul class="header__skils-list">
+                <li>pixel perfect, полное соответствие макету</li>
+                <li>верстаю с сеткой или без</li>
+                <li>адаптивная верстка под мобильные устройства</li>
+                <li>оптимизация по retina экраны</li>
+                <li>с Bootstrap и без него</li>
+              </ul>
+            </div>
+
+            <div class="header__skils-col">
+              <p class="h3">На связи:</p>
+
+              <div class="social-block">
+                <a href="https://web.telegram.org/k/">
+                  <svg class="svg-tg">
+                    <use href="./img/svg/svgSprite.svg#svg-tg"></use>
+                  </svg>
+                </a>
+
+                <a href="https://vk.com/kt.anuf" target="_blank">
+                  <svg class="svg-vk">
+                    <use href="./img/svg/svgSprite.svg#svg-vk"></use>
+                  </svg>
+                </a>
+
+                <!-- <a href="#" target="_blank"> 
+                  <img
+                    src="./img/svg/facebook.svg"
+                    alt="facebook"
+                    class="img-fb"
+                  />
+                </a>-->
+
+                <!-- <a href="#" target="_blank"> 
+                  <img
+                    src="./img/svg/instagram.svg"
+                    alt="instagram"
+                    class="img-inst"
+                  />
+                </a>-->
+
+                <!-- <a href="#" target="_blank">
+                  <svg class="svg-wtsp">
+                    <use href="./img/svg/svgSprite.svg#svg-wtsp"></use>
+                  </svg>
+                </a> -->
+
+              </div>
+
+              <a href="mailto:ekaterinaanufrieva52@gmail.com" class="link-id"
+                >ekaterinaanufrieva52@gmail.com</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="main__portfolio" id="portfolio">
+        <div class="container">
+          <div class="portfolio-title">
+            <h2 class="h2-portfolio grad-border">Портфолио</h2>
+          </div>
+
+          <div class="mix-block">
+            <div class="mix-block__btn">
+              <button type="button" data-filter="all">Все работы</button>
+              <button type="button" data-filter=".html">HTML верстка</button>
+              <button type="button" data-filter=".wp">WordPress</button>
+            </div>
+
+            <div class="card-wrapper" id="mix-cards">
+              <div class="portfolio-card mix html">
+                <a
+                  href="http://f92798y6.beget.tech/forest-trevel/index.html"
+                  target="_blank"
+                  class="portfolio-card__img"
+                >
+                  <img src="./img/frame-forest.png" alt="" class="card-img" />
+                  <span>Смотреть проект</span>
+                </a>
+
+                <div class="portfolio-card__text">
+                  <a
+                    data-fancybox
+                    href="./img/desktop-forestjpg.png"
+                    class="card-title"
+                    >Верстка “Форест тревел”</a
+                  >
+                  <p class="card-description">Верстка многостраничного сайта</p>
+                </div>
+              </div>
+
+              <div class="portfolio-card mix html">
+                <a
+                  href="http://f92798y6.beget.tech/project-unit-scss/index.html"
+                  target="_blank"
+                  class="portfolio-card__img"
+                >
+                  <img src="./img/frame-unit.png" alt="" class="card-img" />
+                  <span>Смотреть проект</span>
+                </a>
+
+                <div class="portfolio-card__text">
+                  <a
+                    data-fancybox
+                    href="./img/desktop-unit.jpg"
+                    class="card-title"
+                    >Сайт приложения “Юнит”</a
+                  >
+                  <p class="card-description">Верстка лендинга</p>
+                </div>
+              </div>
+
+              <!-- <a href="#" target="_blank" class="portfolio-card mix"> 
+
+              <div class="portfolio-card__img">
+                <img src="./img/main-img-3.jpg" alt="" class="card-img" />
+                <span>Смотреть проект</span>
+              </div>
+
+              <div class="portfolio-card__text">
+                <h4 class="card-title">Верстка “Мир Авто”</h4>
+                <p class="card-description">Верстка многостраничного сайта</p>
+              </div>
+
+            </a>-->
+
+              <!-- <a href="#" target="_blank" class="portfolio-card mix"> 
+
+              <div class="portfolio-card__img">
+                <img src="./img/main-img-4.jpg" alt="" class="card-img" />
+                <span>Смотреть проект</span>
+              </div>
+
+              <div class="portfolio-card__text">
+                <h4 class="card-title">Верстка “Мир Авто”</h4>
+                <p class="card-description">Верстка многостраничного сайта</p>
+              </div>
+
+            </a>-->
+
+              <!-- <a href="#" target="_blank" class="portfolio-card mix">
+              <div class="portfolio-card__img">
+                <img src="./img/main-img-5.jpg" alt="" class="card-img" />
+                <span>Смотреть проект</span>
+              </div>
+
+              <div class="portfolio-card__text">
+                <h4 class="card-title">Верстка “Мир Авто”</h4>
+                <p class="card-description">Верстка многостраничного сайта</p>
+              </div>
+
+            </a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="timeline" id="timeline">
+        <div class="container">
+          <div class="section-title">
+            <h2 class="h2 grad-border">Как я работаю</h2>
+          </div>
+
+          <div class="timeline-wrapper">
+            <div class="timeline-item">
+              <div class="timeline-item__title grad-border">Оцениваю макет</div>
+
+              <p>Оцениваю объем работы, сложность, нюансы. Задаю вопросы.</p>
+              <strong>Время: 2 часа</strong>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-item__title grad-border">
+                ТЗ, смета и график работ
+              </div>
+              <p>
+                Согласовываем техническое задание и график работ по проекту.
+                Осмечиваю стоимость по этапам работы.
+              </p>
+              <strong>Время: 2 - 4 часа</strong>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-item__title grad-border">
+                Вы держите руку на пульсе
+              </div>
+
+              <p>
+                Выдаю клиенту доступ к GitHub репозиторию и доске Trello. Вы в
+                любое время можете видеть актуальное состояние проекта и задач.
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-item__title grad-border">
+                Выполняю каждый этап
+              </div>
+
+              <p>
+                Поочередно выполняю каждый этап работы. Передаю результаты.
+                Заказчик производит поэтапную оплату.
+              </p>
+            </div>
+
+            <div class="timeline-item">
+              <div class="timeline-item__title grad-border">
+                Финальное ревью проекта
+              </div>
+
+              <p>
+                Проект готов. Финальное ревью и полировка до идеального
+                состояния. Передаю файлы проекта, заливаю сайт на хостинг
+                заказчика.
+              </p>
+              <strong>Время: 2 - 4 часа</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <div class="contacts-title">
+            <h2 class="h2 grad-border">Контакты</h2>
+          </div>
+
+          <div class="contacts__content">
+            <!-- левая колонка -->
+            <div class="contacts-row">
+              <div class="contacts-text">
+                <p>
+                  Если вы ищите специалиста по верстке сайтов или frontend
+                  разработчика в команду для работы над проектом — напишите мне.
+                </p>
+              </div>
+
+              <ul class="contacts-list">
+                <li>
+                  <span>Email</span>
+                  <a
+                    href="mailto:ekaterinaanufrieva52@gmail.com"
+                    class="link-id"
+                    >ekaterinaanufrieva52@gmail.com</a
+                  >
+                </li>
+
+                <li class="li-t">
+                  <span>Телефон</span>
+                  <a href="tel:+79279881711" class="link-id">+79279881711</a>
+                </li>
+              </ul>
+
+              <div class="social-block">
+                <a href="https://web.telegram.org/k/">
+                  <svg class="svg-tg">
+                    <use href="./img/svg/svgSprite.svg#svg-tg"></use>
+                  </svg>
+                </a>
+
+                <a href="https://vk.com/kt.anuf" target="_blank">
+                  <svg class="svg-vk">
+                    <use href="./img/svg/svgSprite.svg#svg-vk"></use>
+                  </svg>
+                </a>
+
+                <!-- <a href="#" target="_blank">
+                  <img
+                    src="./img/svg/facebook.svg"
+                    alt="facebook"
+                    class="img-fb"
+                  />
+                </a> -->
+
+                <!-- <a href="#" target="_blank">
+                  <img
+                    src="./img/svg/instagram.svg"
+                    alt="instagram"
+                    class="img-inst"
+                  />
+                </a> -->
+
+                <!-- <a href="#" target="_blank">
+                  <svg class="svg-wtsp">
+                    <use href="./img/svg/svgSprite.svg#svg-wtsp"></use>
+                  </svg>
+                </a> -->
+
+              </div>
+            </div>
+
+            <!-- правая колонка -->
+
+            <div class="contacts-form__wrapper">
+              <div class="contacts-img">
+                <img src="./img/footer-bgg.svg" alt="img" />
+              </div>
+
+              <form class="form-contact">
+                <div class="form-item form-item-input">
+                  <span class="fake-placholder">Ваш Email</span>
+                  <input class="form-input" name="email" type="email" />
+                </div>
+
+                <div class="form-item form-item-input">
+                  <span class="fake-placholder">Сообщение</span>
+                  <textarea
+                    class="form-textarea form-input"
+                    name="message"
+                    id="#"
+                  ></textarea>
+                </div>
+
+                <div class="form-item form-item-btn">
+                  <input class="form__btn" type="submit" value="Отправить" />
+                </div>
+              </form>
+              <div id="answer"></div>
+            </div>
+          </div>
+          <!-- // contacts__content-->
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="upper-description">
+          <p>&copy; 2023 — Екатерина Ануфриева</p>
+        </div>
+
+        <div class="lower-description">
+          <p>
+            Веб-разработчик из Ульяновска, занимаюсь версткой и созданием
+            сайтов.
+          </p>
+
+          <p>
+            Этот сайт сделал в рамках прохождения обучения по верстке на курсах
+            от <a href="https://webcademy.ru/" target="_blank">WebCademy.ru</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- кнопка вверх -->
+
+    <a href="#top" class="backtop-btn" id="backtop">&uarr;</a>
+
+    <!-- jquery -->
+    <script src="./libs/Jquery/jquery-3.0.0.min.js"></script>
+
+    <!-- jquery validate-->
+    <script src="./libs/Jquery/jquery.validate.min.js"></script>
+
+    <!-- Mixitup -->
+    <script src="./libs/mixitup/mixitup.min.js"></script>
+
+    <!-- fransyapps -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+    <!-- анимация  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- //анимация  -->
+
+    <script src="./js/nav.js"></script>
+    <script src="./js/backtop.js"></script>
+    <script src="./js/mixitup.js"></script>
+    <script src="./js/fancybox.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/validate.js"></script>
+  </body>
+</html>

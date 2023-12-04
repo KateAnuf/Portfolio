@@ -1,0 +1,51 @@
+.button {
+    display: inline-block;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 64px;
+    line-height: 64px;
+
+    font-weight: 700;
+    font-size: 20px;
+    color: $black-color;
+    text-decoration: none;
+    border: none;
+
+    border-radius: 50px;
+    background-color: $accent-color;
+    cursor: pointer;
+    margin-right: 20px;
+
+    /* Tablet big*/
+    @media (max-width: 1139px) {
+
+        padding-left: 26px;
+        padding-right: 26px;
+    }
+}
+
+.button:hover, .button:focus{
+    background-color: #FFEB8D;
+}
+
+.button:active{
+    background-color: #F5D22D;
+}
+
+
+.button.button--outline {
+    background-color:#EFF7FC;
+}
+
+.button.button--outline:last-child {
+    margin-right: 0;
+ }
+ 
+ .button.button--outline:hover, .button.button--outline:focus{
+    background-color: #D1EDFF;
+}
+
+.button.button--outline:active{
+    background-color: #B0DCF8;
+}
